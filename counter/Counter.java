@@ -1,6 +1,7 @@
 public class Counter{
     private int val;
-    private void counter(){
+    
+    public void counter(){
         val = 0;
     }
     public void inc(){
