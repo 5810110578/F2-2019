@@ -3,7 +3,7 @@ public class Dice{
     private int score;
 
     public Dice(int slot){
-        score = 0;
+        score = 1;
     }
     public void roll(){
         score = (int)(Math.random() * 6 )+ 1;
